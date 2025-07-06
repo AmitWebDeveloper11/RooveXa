@@ -1,0 +1,2480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RooveXa – Real Estate in Gurgaon</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- <link rel="stylesheet" href="style.css"> -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- <style>
+ @import url('https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css');
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', sans-serif; background: #f5f7fa; color: #222; }
+
+/* HEADER CONTAINER */
+.header {
+  background: linear-gradient(to right, #4b2ab5, #6b4be2);
+  padding: 15px 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+   position: sticky;
+  top: 0;
+  z-index: 999; /* ensure it stays on top of other elements */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* LOGO STYLE */
+.header .logo {
+  font-size: 28px;
+  font-weight: 800;
+  margin: 0;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.header .logo span {
+  background: white;
+  color: #4b2ab5;
+  padding: 4px 8px;
+  border-radius: 5px;
+  margin-right: 5px;
+}
+
+  html {
+    scroll-behavior: smooth;
+  }
+/* NAVIGATION LINKS */
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  font-weight: 500;
+}
+
+.header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.header nav a:hover {
+  color: #c2ffd4;
+}
+
+/* POST PROPERTY BUTTON */
+.header nav .post-btn {
+  background-color: #00e693;
+  padding: 6px 12px;
+  border-radius: 5px;
+  color: #222;
+  font-weight: bold;
+}
+
+
+    .nav-tabs {
+      display: flex;
+      gap: 20px;
+    }
+    .nav-tab {
+      cursor: pointer;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+      background: #f0f0f0;
+      transition: 0.3s;
+    }
+    .nav-tab.active, .nav-tab:hover {
+      background: #5a2fc2;
+      color: white;
+    }
+
+    .hero {
+      padding: 60px 20px 40px;
+      background: linear-gradient(to right, #5a2fc2, #00bcd4);
+      color: white;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+    .search-bar {
+      margin-top: 20px;
+    }
+    .search-bar input {
+      padding: 14px;
+      width: 90%;
+      max-width: 500px;
+      border-radius: 30px;
+      border: none;
+      font-size: 1rem;
+      outline: none;
+    }
+
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px;
+      background: #fff;
+      padding: 15px 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+      /* position: sticky; */
+      top: 70px;
+      z-index: 999;
+    }
+    .filters select {
+      padding: 10px 16px;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 0.95rem;
+    }
+
+    .master-state{
+       padding: 30px 20px;
+ background: linear-gradient(135deg, #2b2b2b, #c8c2c2);
+  text-align: center;
+  margin: auto;
+    }
+
+
+
+    .master-state h2 {
+  font-size: 2rem;
+  color: #b0b2b4;
+  margin-bottom: 10px;
+}
+
+.master-state h2::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 3px;
+  background-color: #151514; /* Accent color, can be changed */
+  margin: 10px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.master-state .subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+.master-state-section {
+  padding: 30px 20px;
+ background: linear-gradient(135deg, #f8fcf8, #494848);
+  text-align: center;
+}
+.master-state-section h2 {
+  font-size: 2.2rem;
+  margin-bottom: 10px;
+}
+
+.master-state-section .subtitle {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 40px;
+}
+.state-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+.state-card {
+  margin: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 180px;
+  color: white;
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+.state-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+}
+.state-card span {
+  position: relative;
+  z-index: 2;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+.state-card:hover {
+  transform: scale(1.03);
+ box-shadow: 0 0 10px gold;
+}
+
+
+
+
+
+
+    /* view more & less view css */
+
+    #propertyGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.property-card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  max-width: 400px;
+  margin: 20px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.property-card:hover {
+  transform: translateY(-5px);
+}
+.property-card img {
+  width: 100%;
+  height: 230px;
+  object-fit: cover;
+}
+.property-info {
+  padding: 15px;
+}
+.property-info h4 {
+  margin: 0 0 5px;
+  font-size: 18px;
+  color: #6c2bd9;
+}
+.property-info .tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.property-info .tag {
+  background: #eee;
+  border-radius: 5px;
+  padding: 4px 10px;
+  font-size: 14px;
+}
+.property-info .price {
+  background: #f1f1f1;
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+#propertyGrid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: flex-start;
+}
+
+#viewMoreBtn {
+  display: block;
+  margin: 30px auto 10px;
+  padding: 12px 28px;
+  background-color: #1ea4c2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#viewMoreBtn:hover {
+  background-color: #3017c1;
+  transform: translateY(-2px);
+}
+
+#viewMoreBtn:active {
+  background-color: #0f2fbc;
+  transform: scale(0.98);
+}
+
+
+  @media (max-width: 768px) {
+    .property-card {
+      width: 100%;
+    }
+  }
+
+
+
+/* New Properties Stylish Section */
+
+.set-style {
+   text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #222;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.set-style::after {
+  content: "";
+  display: block;
+  width: 20rem;
+  height: 3px;
+  background-color: #38e6e9; /* Accent color, can be changed */
+  margin: 10px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.set-style:hover::after {
+  width: 20rem;
+}
+
+
+
+
+.new-properties {
+  padding: 60px 20px;
+  background: #fff;
+  text-align: center;
+}
+.new-properties h2 {
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+.new-properties p {
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+
+/* Swiper wrapper spacing */
+.new-properties .swiper {
+  padding: 10px 10px 50px;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  background: none !important;
+}
+
+
+/* top state h2 */
+.top-heading::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 3px;
+  background-color: #4c4c4c; /* Accent color, can be changed */
+  margin: 10px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+
+
+ /* top propeties h3 */
+.top-properties-heading {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  color: #222;
+  margin-bottom: 10px;
+  letter-spacing: 0.8px;
+}
+
+
+.top-properties-heading::after {
+  content: "";
+  display: block;
+  width: 10rem;
+  height: 3px;
+background: linear-gradient(red,rgb(225, 228, 225));
+  margin: 10px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+/* .top-properties-heading:hover::after {
+  width: 10rem;
+} */
+
+
+
+
+/* Property Card */
+.property-card {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 100%;
+  max-width: 300px;
+  margin: auto;
+}
+.property-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 20px rgba(90, 47, 194, 0.15);
+}
+.property-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+.property-card h3 {
+  font-size: 17px;
+  margin: 10px 0 6px;
+  color: #333;
+}
+.property-card p {
+  font-size: 14px;
+  color: #666;
+}
+.property-card strong {
+  display: block;
+  font-size: 15px;
+  color: #5a2fc2;
+  margin-top: 5px;
+}
+.property-card button {
+  margin: 12px 0 15px;
+  padding: 8px 16px;
+  background: #5a2fc2;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background 0.3s;
+}
+.property-card button:hover {
+  background: #4a1eb2;
+}
+
+/* Swiper arrows */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #0a0a0a;
+  background: #5a2fc2;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.swiper-slide img {
+     border-radius: 10px;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+ margin-left: 10px;
+transition: transform 0.3s ease;
+}
+.swiper-slide img:hover {
+transform: translateY(5px);
+box-shadow: 0 0 50px rgb(139, 181, 222);
+
+}
+
+.property-info {
+  padding: 15px;
+}
+
+.property-info h3 {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.property-info p {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.property-info .price {
+  font-weight: bold;
+  color: #007BFF;
+  font-size: 1rem;
+}
+
+/* Responsive tweaks */
+@media (max-width: 992px) {
+  .swiper {
+    padding: 0 10px;
+  }
+
+  .swiper-slide {
+    margin-right: 10px;
+  }
+}
+
+    .section {
+      padding: 30px 20px;
+    }
+    .section h3 {
+      font-size: 1.5rem;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .localities, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 16px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+      transition: 0.2s;
+      cursor: pointer;
+    }
+    .card:hover {
+      box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+      transform: translateY(-3px);
+    }
+    .card img {
+      width: 100%;
+      height: 160px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 10px;
+    }
+    .card h4 {
+      font-size: 1rem;
+      color: #5a2fc2;
+      margin-bottom: 5px;
+    }
+    .card p {
+      font-size: 0.9rem;
+      color: #666;
+    }
+    .property-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .property-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .property-card:hover {
+      transform: translateY(-4px);
+    }
+    .property-card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+    .property-info {
+      padding: 15px;
+    }
+    .property-info h4 {
+      color: #5a2fc2;
+      margin-bottom: 8px;
+      font-size: 1.1rem;
+    }
+    .property-info p {
+      font-size: 0.9rem;
+      margin: 4px 0;
+    }
+
+    .tags {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    .modal {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0,0,0,0.6);
+      display: none;
+      align-items: center;
+      justify-content: center;
+      z-index: 9999;
+    }
+
+    .modal-content {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      width: 90%;
+      max-width: 600px;
+      max-height: 90vh;
+      overflow-y: auto;
+    }
+
+    .modal-content img {
+      width: 100%;
+      height: 250px;
+      border-radius: 10px;
+      object-fit: cover;
+      margin-bottom: 20px;
+    }
+
+    .modal-content button {
+      margin-top: 15px;
+      background: #5a2fc2;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 1rem;
+      width: 100%;
+    }
+
+    footer {
+      background: #1a1a1a;
+      color: white;
+      text-align: center;
+      padding: 25px 10px;
+      margin-top: 40px;
+    }
+
+    @media (max-width: 600px) {
+      header, .filters, .section { padding: 10px; }
+      .hero h2 { font-size: 1.8rem; }
+      .nav-tabs { flex-direction: column; gap: 10px; }
+    }
+
+    .big-footer {
+  background: #111;
+  text-align: center;
+  color: #fff;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-top {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  border-bottom: 1px solid #444;
+  padding-bottom: 30px;
+}
+.footer-col h4 {
+  font-size: 14px;
+  margin-bottom: 12px;
+  color: #bbb;
+}
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+}
+.footer-col ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+  color: #ccc;
+}
+.footer-col ul li:hover {
+  color: #fff;
+}
+
+.footer-mid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 0;
+  border-bottom: 1px solid #444;
+}
+.footer-img img {
+    width: 100%;
+  max-width: 600px;  /* ya jitna tu chahe */
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.footer-cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.footer-subcol h5 {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #bbb;
+}
+.footer-subcol ul {
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+}
+.footer-subcol ul li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+}
+.footer-subcol ul li:hover {
+  color: #fff;
+}
+.social-icons {
+  margin-top: 10px;
+}
+.social-icons i {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #aaa;
+  cursor: pointer;
+}
+.social-icons i:hover {
+  color: #fff;
+}
+.footer-bottom {
+  text-align: center;
+  font-size: 13px;
+  padding-top: 20px;
+  color: #888;
+}
+.footer-bottom::after {
+  content: "";
+  display: block;
+  width: 15rem;
+  height: 0.50px;
+  background-color: #f1efef; /* Accent color, can be changed */
+  margin: 10px auto 0;
+  border-radius: 0.50px;
+}
+
+/* map  */
+
+.map-heading {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  color: #b1a8a8;
+  margin-bottom: 25px;
+  position: relative;
+  display: inline-block;
+}
+
+.map-heading::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #ff6600; /* Accent color, can be changed */
+  margin: 10px auto 0;
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+.map-heading:hover::after {
+  width: 25rem;
+}
+
+
+
+/* Mobile */
+@media (max-width: 768px) {
+
+  /* Header */
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 15px;
+  }
+
+  .header nav {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    margin-top: 10px;
+  }
+
+  .header .logo {
+    font-size: 24px;
+  }
+
+  /* Hero Section */
+  .hero h2 {
+    font-size: 1.5rem;
+  }
+
+  .search-bar input {
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  /* Filters */
+  .filters {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Property Cards */
+  .property-grid,
+  .projects,
+  .localities {
+    grid-template-columns: 1fr;
+  }
+
+  .property-card {
+    max-width: 100%;
+    margin: auto;
+  }
+
+  /* Swiper Adjustments */
+  .swiper-slide {
+    width: 90%;
+    margin-right: 10px;
+  }
+
+  /* Footer */
+  .footer-top {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-cols {
+    flex-direction: column;
+    gap: 15px;
+    margin: auto;
+  }
+  .footer-img img {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .map-heading {
+    font-size: 1.3rem;
+  }
+
+  .map-heading:hover::after {
+    width: 15rem;
+  }
+}
+
+@media (hover: hover) {
+  .property-card:hover
+  .map-heading:hover
+  .social-icons i:hover
+  .swiper-slide img:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+  }
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 9999;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-modal-content {
+  background: #fff;
+  padding: 2rem;
+  width: 90%;
+  max-width: 450px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.contact-modal-content h2 {
+  text-align: center;
+  margin-bottom: 1.2rem;
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.contact-form .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.2s;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0099ff;
+  outline: none;
+}
+
+.submit-btn {
+  width: 100%;
+  background-color: #0099ff;
+  color: #fff;
+  padding: 12px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.2s;
+  margin-top: 0.5rem;
+}
+
+.submit-btn:hover {
+  background-color: #007ad9;
+}
+
+.close-btn {
+  margin-top: 0.5rem;
+  background-color: #ccc;
+  color: #000;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 100%;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
+.success-message {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  border-radius: 10px;
+  background: #e6fff0;
+  margin-top: 1rem;
+  animation: fadeIn 0.4s ease-in-out;
+}
+
+.success-message .checkmark {
+  font-size: 2.5rem;
+  color: #28a745;
+  margin-bottom: 10px;
+  animation: pop 0.5s ease-out;
+}
+
+.success-message p {
+  color: #28a745;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); }
+  80% { transform: scale(1.2); }
+  100% { transform: scale(1); }
+}
+
+
+.home-btn {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.home-btn:hover {
+  background-color: #0056b3;
+}
+
+
+  .type-tabs {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin: 20px auto;
+    flex-wrap: wrap;
+  }
+
+  .type-tabs button {
+    padding: 10px 20px;
+    border: none;
+    background: #eee;
+    color: #333;
+    font-weight: 600;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+
+  .type-tabs button:hover {
+    background: #ddd;
+  }
+
+  .type-tabs button.active {
+    background: #007bff;
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 123, 255, 0.3);
+  }
+
+
+
+  .whatsapp-support {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 40px;
+  /* background-color: #f4f4f4; */
+}
+
+.whatsapp-circle {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: #25D366;
+  border-radius: 50%;
+  text-decoration: none;
+  color: white;
+  font-size: 36px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.whatsapp-circle:hover {
+  background-color: #1ebe5b;
+  transform: scale(1.1);
+}
+
+.whatsapp-support p {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+
+
+.input-with-icon {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding: 12px 45px 12px 15px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  font-size: 16px;
+  outline: none;
+}
+
+.input-with-icon button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: #888;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+  </style> -->
+</head>
+<body>
+
+<!-- Header -->
+<!-- Real Estate Header -->
+<header class="header">
+  <div class="logo">
+    <span>R</span>ooveXa
+  </div>
+  <nav>
+<div id="typeTabs" class="type-tabs">
+  <button onclick="filterByType('All')" id="btnAll" class="active">All</button>
+  <button onclick="filterByType('Buy')" id="btnBuy">Buy</button>
+  <button onclick="filterByType('Rent')" id="btnRent">Rent</button>
+</div>
+
+    <a href="#" class="post-btn">Post Property</a>
+  </nav>
+</header>
+
+
+
+
+<section class="hero">
+  <h2>Find Your Dream Property in Gurgaon</h2>
+  <div class="search-bar">
+    <div class="input-with-icon">
+      <input type="text" id="searchInput" placeholder="Search by project, sector or landmark..." />
+      <button id="searchBtn" aria-label="Search">
+        <i class="fas fa-search"></i>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+
+
+<div class="filters">
+  <select id="bhkFilter" onchange="applyFilters()">
+    <option value="">All BHK</option>
+    <option value="1">1 BHK</option>
+    <option value="2">2 BHK</option>
+    <option value="3">3 BHK</option>
+  </select>
+  <select id="budgetFilter" onchange="applyFilters()">
+    <option value="">All Budgets</option>
+    <option value="0-50">Below ₹50L</option>
+    <option value="50-100">₹50L - ₹1Cr</option>
+    <option value="100+">₹1Cr+</option>
+  </select>
+  <select id="typeFilter" onchange="applyFilters()">
+    <option value="">All Types</option>
+    <option value="Apartment">Apartment</option>
+    <option value="Villa">Villa</option>
+    <option value="Studio">Studio</option>
+  </select>
+</div>
+
+<!-- Newly-added properties -->
+<section class="py-10 px-4" >
+  <h2 class="set-style">Newly Added Properties</h2>
+  <div class="swiper">
+    <div class="swiper-wrapper">
+      <!-- Property Card 1 -->
+    <div class="swiper-slide">
+  <img src="https://images.pexels.com/photos/14024958/pexels-photo-14024958.jpeg" alt="Property 1" />
+  <div class="property-info">
+    <h3>Luxury Villa in Goa</h3>
+    <p>3 BHK • 2000 sqft</p>
+    <p class="price">₹5 Cr</p>
+  </div>
+</div>
+
+<div class="swiper-slide">
+  <img src="https://images.pexels.com/photos/565324/pexels-photo-565324.jpeg" alt="Property 2" />
+  <div class="property-info">
+    <h3>Skyline Apartment, Mumbai</h3>
+    <p>2 BHK • 1200 sqft</p>
+    <p class="price">₹1.8 Cr</p>
+  </div>
+</div>
+
+<div class="swiper-slide">
+  <img src="https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Property 3" />
+  <div class="property-info">
+    <h3>Bungalow in Pune</h3>
+    <p>4 BHK • 2500 sqft</p>
+    <p class="price">₹3.1 Cr</p>
+  </div>
+</div>
+
+      <!-- Property Card 4 -->
+      <div class="swiper-slide">
+        <img src="	https://images.pexels.com/photos/259957/pexels-photo-259957.jpeg" alt="Property 4" />
+        <div class="property-info">
+          <h3>Beach House, Kerala</h3>
+          <p>2 BHK • 1500 sqft</p>
+          <p class="price">₹1.3 Cr</p>
+        </div>
+      </div>
+
+      <!-- Property Card 5 -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/2251247/pexels-photo-2251247.jpeg" alt="Property 5" />
+        <div class="property-info">
+          <h3>Luxury Home, Delhi</h3>
+          <p>3 BHK • 1800 sqft</p>
+          <p class="price">₹2.2 Cr</p>
+        </div>
+      </div>
+
+      <!-- Property Card 6 -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/7045715/pexels-photo-7045715.jpeg" alt="Property 6" />
+        <div class="property-info">
+          <h3>Flat in Noida</h3>
+          <p>2 BHK • 1100 sqft</p>
+          <p class="price">₹95 Lakh</p>
+        </div>
+      </div>
+
+      <!-- Property Card 7 -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/2440471/pexels-photo-2440471.jpeg" alt="Property 7" />
+        <div class="property-info">
+          <h3>Urban Apartment, Gurgaon</h3>
+          <p>3 BHK • 1600 sqft</p>
+          <p class="price">₹1.9 Cr</p>
+        </div>
+      </div>
+
+      <!-- Property Card 8 -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg" alt="Property 8" />
+        <div class="property-info">
+          <h3>Duplex, Chandigarh</h3>
+          <p>4 BHK • 2400 sqft</p>
+          <p class="price">₹2.8 Cr</p>
+        </div>
+      </div>
+
+      <!-- Property Card 9 -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/6585764/pexels-photo-6585764.jpeg" alt="Property 9" />
+        <div class="property-info">
+          <h3>Flat in Jaipur</h3>
+          <p>2 BHK • 1000 sqft</p>
+          <p class="price">₹80 Lakh</p>
+        </div>
+      </div>
+
+      <!-- Property Card 10 -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/12558958/pexels-photo-12558958.jpeg" alt="Property 10" />
+        <div class="property-info">
+          <h3>City Home, Lucknow</h3>
+          <p>3 BHK • 1500 sqft</p>
+          <p class="price">₹1.4 Cr</p>
+        </div>
+      </div>
+
+      <!-- Property Card 11-15 (Same format) -->
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/5997994/pexels-photo-5997994.jpeg" alt="Property 11" />
+        <div class="property-info">
+          <h3>Smart Home, Indore</h3>
+          <p>2 BHK • 1300 sqft</p>
+          <p class="price">₹88 Lakh</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="	https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg" alt="Property 12" />
+        <div class="property-info">
+          <h3>Villa in Ahmedabad</h3>
+          <p>4 BHK • 2700 sqft</p>
+          <p class="price">₹10 Cr</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="	https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg" alt="Property 13" />
+        <div class="property-info">
+          <h3>Eco Flat, Bhopal</h3>
+          <p>3 BHK • 1400 sqft</p>
+          <p class="price">₹75 Lakh</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/32478553/pexels-photo-32478553.jpeg" alt="Property 14" />
+        <div class="property-info">
+          <h3>Independent House, Kanpur</h3>
+          <p>3 BHK • 1800 sqft</p>
+          <p class="price">₹1.6 Cr</p>
+        </div>
+      </div>
+
+      <div class="swiper-slide">
+        <img src="https://images.pexels.com/photos/30705325/pexels-photo-30705325.jpeg" alt="Property 15" />
+        <div class="property-info">
+          <h3>Green Villa, Nagpur</h3>
+          <p>4 BHK • 2200 sqft</p>
+          <p class="price">₹2.1 Cr</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Navigation Arrows -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+  </div>
+</section>
+
+
+<section class="master-state-section">
+  <h2 class="top-heading">Top States</h2>
+  <p class="subtitle">Your Art & Culture Hub</p>
+  <div class="state-grid">
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/31102560/pexels-photo-31102560.jpeg');">
+      <span>Haryana</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/3835638/pexels-photo-3835638.jpeg');">
+      <span>Maharashtra</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/32841476/pexels-photo-32841476.jpeg');">
+      <span>Karnataka</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/925069/pexels-photo-925069.jpeg');">
+      <span>Rajasthan</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/19927023/pexels-photo-19927023.jpeg');">
+      <span>Delhi</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/602607/pexels-photo-602607.png');">
+      <span>Uttar Pradesh</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/10818318/pexels-photo-10818318.jpeg?cs=srgb&dl=pexels-charles-ag-tegart-160657406-10818318.jpg&fm=jpg');">
+      <span>Bihar</span>
+    </div>
+    <div class="state-card" style="background-image: url('https://images.pexels.com/photos/739987/pexels-photo-739987.jpeg');">
+      <span>Bangalore</span>
+    </div>
+</section>
+
+
+
+
+
+<section class="section">
+<h3 class="top-properties-heading">Top Properties</h3>
+<div class="section-underline"></div>
+ <div id="propertyGrid"></div>
+<button id="viewMoreBtn" style="margin: 20px auto; display: none;">View More</button>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="propertyModal">
+  <div class="modal-content" id="modalContent">
+    <!-- Dynamic modal content here -->
+  </div>
+</div>
+
+
+<div class="master-state">
+  <h2>Our Facility</h2>
+  <div class="state-grid">
+    <!-- Parking Space -->
+     <div class="state-card" style="background-image: url('https://images.pexels.com/photos/1000633/pexels-photo-1000633.jpeg');">
+      <span>  Parking Space</span>
+    </div>
+    <!-- Swimming Pool -->
+ <div class="state-card" style="background-image: url('https://images.pexels.com/photos/261327/pexels-photo-261327.jpeg');">
+      <span>  Swimming Pool</span>
+    </div>
+  
+    <!-- Private Security -->
+<div class="state-card" style="background-image: url('https://images.pexels.com/photos/96612/pexels-photo-96612.jpeg');">
+      <span> Private Security</span>
+    </div>
+   
+    <!-- Medical Center -->
+     <div class="state-card" style="background-image: url('https://images.pexels.com/photos/236380/pexels-photo-236380.jpeg');">
+      <span>Medical Center</span>
+    </div>
+    <!-- Library Area -->
+     <div class="state-card" style="background-image: url('https://images.pexels.com/photos/1290141/pexels-photo-1290141.jpeg');">
+      <span>Library Area</span>
+    </div>
+    <!-- King Size Beds -->
+   <div class="state-card" style="background-image: url('https://images.pexels.com/photos/164595/pexels-photo-164595.jpeg');">
+      <span>King Size Beds</span>
+    </div>
+    <!-- Smart Homes -->
+<div class="state-card" style="background-image: url('https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg');">
+      <span> Smart Homes</span>
+    </div>
+   
+    <!-- Kid’s Playland -->
+     <div class="state-card" style="background-image: url('https://images.pexels.com/photos/296302/pexels-photo-296302.jpeg');">
+      <span> Kid’s Playland</span>
+    </div>
+     
+  </div>
+</div>
+
+
+
+
+
+<div class="big-footer">
+  <div class="footer-top">
+    <div class="footer-col">
+      <h4>REAL ESTATE</h4>
+      <ul>
+       <a href="" style="text-decoration: none;"><li>Flats in Mumbai  </li></a> 
+        <li>Flats in Bengaluru</li>
+        <li>Flats in Hyderabad</li>
+        <li>Flats in Pune</li>
+        <li>Flats in Chennai</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>RENTALS</h4>
+      <ul>
+        <li>Flats in Delhi</li>
+        <li>Flats in Gurgaon</li>
+        <li>Flats in Noida</li>
+        <li>Flats in Kolkata</li>
+        <li>Flats in Ahmedabad</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>PROJECTS</h4>
+      <ul>
+        <li>Flats in Thane</li>
+        <li>Flats in Navi Mumbai</li>
+        <li>Flats in Faridabad</li>
+        <li>Flats in Ghaziabad</li>
+        <li>Flats in Coimbatore</li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>POPULAR SEARCHES</h4>
+      <ul>
+        <li>Properties in India</li>
+        <li>Agricultural Lands in India</li>
+        <li>Plots in India</li>
+        <li>Flats in India</li>
+      </ul>
+    </div>
+  </div>
+  
+  
+
+<section class="map-section" style="padding: 50px 0;">
+  <h3 class="map-heading">Property Dealer Location</h3>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1869.64495691665!2d77.00251702718354!3d28.477570859672856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d176393ffc4a9%3A0x94bc11c7626f9a4d!2s488%2C%20Sector%203A%2C%20Laxman%20Vihar%2C%20Gurugram%2C%20Haryana%20122001!5e0!3m2!1sen!2sin!4v1751815304218!5m2!1sen!2sin"
+    width="100%"
+    height="400"
+    style="border:0; border-radius: 12px;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade">
+  </iframe>
+</section>
+
+  <div class="footer-mid">
+    <div class="footer-img">
+      <img src="https://i.pinimg.com/originals/84/3b/1d/843b1dd5f3b70b9b002d858f21e12ce2.gif" alt="Award">
+    </div>
+    <div class="footer-cols" style="margin-top: 20px;">
+      <div class="footer-subcol">
+        <h5>COMPANY</h5>
+        <ul>
+          <li>Careers</li>
+          <li>About Us</li>
+          <li>For Partners</li>
+          <li>Terms</li>
+          <li>Annual Return</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div class="footer-subcol">
+        <h5>PARTNER SITES</h5>
+        <ul>
+          <li>Proptiger</li>
+          <li>realestate.com.au</li>
+          <li>realtor.com</li>
+          <li>99.co</li>
+          <li>collinsdictionary.com</li>
+        </ul>
+      </div>
+      <div class="footer-subcol">
+        <h5>EXPLORE</h5>
+        <ul>
+          <li>News</li>
+          <li>Home Loans</li>
+          <li>Sitemap</li>
+          <li>International</li>
+        </ul>
+      </div>
+      <div class="footer-subcol">
+       <section class="whatsapp-support">
+  <a href="https://wa.me/917210271354" target="_blank" class="whatsapp-circle">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <p>Chat with WhatsApp</p>
+  <p style="text-align: center; color: grey; font-size: 10px; margin-top: 10px;">To Get Your Website made,Contact us on WhatsApp</p>
+</section>
+
+        <div class="social-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-linkedin"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>©2012–25 RooveXa Solutions Pvt. Ltd.</p>
+  </div>
+  <p style="text-align: center; color: grey; font-size: 10px; margin-top: 10px;">@CopyRight By Amit Pandey</p>
+  <p style="text-align: center; color: grey; font-size: 10px; margin-top: 10px;">To Get Your Website made,Contact us on WhatsApp</p>
+</div>
+
+
+<!-- Contact Modal -->
+<div id="contactModal" class="modal">
+  <div class="contact-modal-content">
+    <h2>Contact Property Owner</h2>
+    <form class="contact-form" onsubmit="submitContactForm(event)">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="you@example.com" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="4" placeholder="Write your message..." required></textarea>
+      </div>
+      <button type="submit" class="submit-btn">Send Message</button>
+      <button type="button" class="close-btn" onclick="closeContactModal()">Cancel</button>
+    </form>
+
+    <!-- ✅ Success message section -->
+   <div id="successMessage" class="success-message hidden">
+  <div class="checkmark">&#10003;</div>
+  <p>Message sent successfully!</p>
+  <button onclick="goHome()" class="home-btn">🏠 Back to Home Page</button>
+</div>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-- <script>
+
+  const swiper = new Swiper('.swiper', {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    loop: false,
+    grabCursor: true,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    breakpoints: {
+      0: {
+        slidesPerView: 1.2,
+        spaceBetween: 15,
+      },
+      768: {
+        slidesPerView: 2,
+        spaceBetween: 20,
+      },
+      1024: {
+        slidesPerView: 3,
+        spaceBetween: 30,
+      },
+    }
+  });
+
+
+  // view funcition 
+
+
+
+
+  
+  
+  const properties = [
+    // Haryana
+  {
+    title: "2 BHK Apartment – Sector 45, Gurgaon",
+    bhk: "2",
+    budget: 58,
+    location: "Gurgaon, Haryana",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg",
+
+    area: "950 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Villa – Sohna Road, Gurgaon",
+    bhk: "3",
+    budget: 125,
+    location: "Gurgaon, Haryana",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg",
+    area: "1800 sqft",
+    type: "Buy"
+  },
+
+  // Maharashtra
+  {
+    title: "1 BHK Studio – Andheri, Mumbai",
+    bhk: "1",
+    budget: 35,
+    location: "Mumbai, Maharashtra",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg",
+    area: "480 sqft",
+    type: "Rent"
+  },
+  {
+    title: "4 BHK Penthouse – Worli Sea Face",
+    bhk: "4",
+    budget: 450,
+    location: "Mumbai, Maharashtra",
+    category: "Penthouse",
+    image: "https://images.pexels.com/photos/1396132/pexels-photo-1396132.jpeg",
+    area: "2800 sqft",
+    type: "Buy"
+  },
+  {
+    title: "2 BHK Flat – Baner, Pune",
+    bhk: "2",
+    budget: 67,
+    location: "Pune, Maharashtra",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/1974596/pexels-photo-1974596.jpeg",
+    area: "890 sqft",
+    type: "Buy"
+  },
+
+  // Karnataka
+  {
+    title: "3 BHK Apartment – Whitefield, Bangalore",
+    bhk: "3",
+    budget: 95,
+    location: "Bangalore, Karnataka",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/3797991/pexels-photo-3797991.jpeg",
+    area: "1350 sqft",
+    type: "Buy"
+  },
+  {
+    title: "2 BHK Rent – Koramangala",
+    bhk: "2",
+    budget: 28,
+    location: "Bangalore, Karnataka",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg",
+    area: "980 sqft",
+    type: "Rent"
+  },
+
+  // Delhi
+  {
+    title: "1 BHK Builder Floor – Lajpat Nagar",
+    bhk: "1",
+    budget: 32,
+    location: "New Delhi, Delhi",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+    area: "600 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Luxury Apartment – Vasant Kunj",
+    bhk: "3",
+    budget: 150,
+    location: "New Delhi, Delhi",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/1457842/pexels-photo-1457842.jpeg",
+    area: "1600 sqft",
+    type: "Buy"
+  },
+
+  // Uttar Pradesh
+  {
+    title: "2 BHK Flat – Sector 137, Noida",
+    bhk: "2",
+    budget: 56,
+    location: "Noida, Uttar Pradesh",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg",
+    area: "970 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Builder Floor – Ghaziabad",
+    bhk: "3",
+    budget: 75,
+    location: "Ghaziabad, Uttar Pradesh",
+    category: "Builder Floor",
+    image: "https://images.pexels.com/photos/262048/pexels-photo-262048.jpeg",
+    area: "1250 sqft",
+    type: "Buy"
+  },
+
+  // Telangana
+  {
+    title: "3 BHK Apartment – Gachibowli",
+    bhk: "3",
+    budget: 90,
+    location: "Hyderabad, Telangana",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/6670655/pexels-photo-6670655.jpeg",
+    area: "1500 sqft",
+    type: "Buy"
+  },
+  {
+    title: "1 BHK Rent – Hitech City",
+    bhk: "1",
+    budget: 18,
+    location: "Hyderabad, Telangana",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/15848139/pexels-photo-15848139.png",
+    area: "480 sqft",
+    type: "Rent"
+  },
+
+  // Rajasthan
+  {
+    title: "2 BHK Apartment – Vaishali Nagar",
+    bhk: "2",
+    budget: 42,
+    location: "Jaipur, Rajasthan",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    area: "900 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Villa – Jagatpura",
+    bhk: "3",
+    budget: 89,
+    location: "Jaipur, Rajasthan",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/208736/pexels-photo-208736.jpeg",
+    area: "1600 sqft",
+    type: "Buy"
+  },
+
+  // West Bengal
+  {
+    title: "1 BHK Rent – New Town",
+    bhk: "1",
+    budget: 15,
+    location: "Kolkata, West Bengal",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/2091166/pexels-photo-2091166.jpeg",
+    area: "550 sqft",
+    type: "Rent"
+  },
+  {
+    title: "3 BHK Flat – Salt Lake Sector V",
+    bhk: "3",
+    budget: 68,
+    location: "Kolkata, West Bengal",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/32025968/pexels-photo-32025968.jpeg",
+    area: "1200 sqft",
+    type: "Buy"
+  },
+
+  // Gujarat
+  {
+    title: "2 BHK Apartment – Satellite, Ahmedabad",
+    bhk: "2",
+    budget: 55,
+    location: "Ahmedabad, Gujarat",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/271743/pexels-photo-271743.jpeg",
+    area: "980 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Villa – Gandhinagar",
+    bhk: "3",
+    budget: 88,
+    location: "Gandhinagar, Gujarat",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/261187/pexels-photo-261187.jpeg",
+    area: "1500 sqft",
+    type: "Buy"
+  },
+    // Kerala
+  {
+    title: "2 BHK Apartment – Kakkanad, Kochi",
+    bhk: "2",
+    budget: 46,
+    location: "Kochi, Kerala",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+    area: "870 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Villa – Trivandrum City",
+    bhk: "3",
+    budget: 95,
+    location: "Trivandrum, Kerala",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/276551/pexels-photo-276551.jpeg",
+    area: "1650 sqft",
+    type: "Buy"
+  },
+
+  // Bihar
+  {
+    title: "2 BHK Flat – Patna Junction Area",
+    bhk: "2",
+    budget: 38,
+    location: "Patna, Bihar",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/7167077/pexels-photo-7167077.jpeg",
+    area: "800 sqft",
+    type: "Buy"
+  },
+  {
+    title: "1 BHK Rent – Boring Road",
+    bhk: "1",
+    budget: 9,
+    location: "Patna, Bihar",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/7512036/pexels-photo-7512036.jpeg",
+    area: "500 sqft",
+    type: "Rent"
+  },
+
+  // Madhya Pradesh
+  {
+    title: "3 BHK Apartment – Arera Colony, Bhopal",
+    bhk: "3",
+    budget: 64,
+    location: "Bhopal, Madhya Pradesh",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/7147284/pexels-photo-7147284.jpeg",
+    area: "1200 sqft",
+    type: "Buy"
+  },
+  {
+    title: "2 BHK Villa – Indore Ring Road",
+    bhk: "2",
+    budget: 52,
+    location: "Indore, Madhya Pradesh",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/7147287/pexels-photo-7147287.jpeg",
+    area: "1000 sqft",
+    type: "Buy"
+  },
+
+  // Punjab
+  {
+    title: "3 BHK Apartment – Sector 70, Mohali",
+    bhk: "3",
+    budget: 63,
+    location: "Mohali, Punjab",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/6585599/pexels-photo-6585599.jpeg",
+    area: "1150 sqft",
+    type: "Buy"
+  },
+  {
+    title: "2 BHK Builder Floor – Ludhiana",
+    bhk: "2",
+    budget: 49,
+    location: "Ludhiana, Punjab",
+    category: "Builder Floor",
+    image: "https://images.pexels.com/photos/276724/pexels-photo-276724.jpeg",
+    area: "920 sqft",
+    type: "Buy"
+  },
+
+  // Chandigarh
+  {
+    title: "3 BHK Flat – Sector 44",
+    bhk: "3",
+    budget: 79,
+    location: "Chandigarh",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/6782349/pexels-photo-6782349.jpeg",
+    area: "1300 sqft",
+    type: "Buy"
+  },
+  {
+    title: "1 BHK Studio – Sector 15",
+    bhk: "1",
+    budget: 22,
+    location: "Chandigarh",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/7511698/pexels-photo-7511698.jpeg",
+    area: "480 sqft",
+    type: "Rent"
+  },
+
+  // Jharkhand
+  {
+    title: "2 BHK Apartment – Ranchi",
+    bhk: "2",
+    budget: 39,
+    location: "Ranchi, Jharkhand",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/7534273/pexels-photo-7534273.jpeg",
+    area: "880 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Duplex – Dhanbad",
+    bhk: "3",
+    budget: 66,
+    location: "Dhanbad, Jharkhand",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/158148/ruhl-house-home-galveston-texas-158148.jpeg",
+    area: "1450 sqft",
+    type: "Buy"
+  },
+
+  // Odisha
+  {
+    title: "1 BHK Studio – Bhubaneswar",
+    bhk: "1",
+    budget: 19,
+    location: "Bhubaneswar, Odisha",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+    area: "480 sqft",
+    type: "Rent"
+  },
+  {
+    title: "3 BHK Apartment – Cuttack",
+    bhk: "3",
+    budget: 62,
+    location: "Cuttack, Odisha",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg",
+    area: "1180 sqft",
+    type: "Buy"
+  },
+
+  // Goa
+  {
+    title: "2 BHK Sea View Flat – Panaji",
+    bhk: "2",
+    budget: 120,
+    location: "Panaji, Goa",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/10758466/pexels-photo-10758466.jpeg",
+    area: "1000 sqft",
+    type: "Buy"
+  },
+  {
+    title: "3 BHK Rent – Baga Beach Area",
+    bhk: "3",
+    budget: 70,
+    location: "Goa",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/3051551/pexels-photo-3051551.jpeg",
+    area: "900 sqft",
+    type: "Buy"
+  },
+   {
+    title: "2 BHK Rent – Baga Beach Area",
+    bhk: "2",
+    budget: 50,
+    location: "Goa",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/593171/pexels-photo-593171.jpeg",
+    area: "540 sqft",
+    type: "Rent"
+  },
+  {
+    title: "2 BHK Luxury Flat – South Mumbai",
+    bhk: "2",
+    budget: 95,
+    location: "Mumbai",
+    category: "Luxury",
+    image: "https://images.pexels.com/photos/6238615/pexels-photo-6238615.jpeg",
+    area: "1150 sqft",
+    type: "Rent"
+  },
+  {
+    title: "3 BHK Villa – Whitefield, Bangalore",
+    bhk: "3",
+    budget: 68,
+    location: "Bangalore",
+    category: "Villa",
+    image: "https://images.pexels.com/photos/5997994/pexels-photo-5997994.jpeg",
+    area: "1500 sqft",
+    type: "Rent"
+  },
+  {
+    title: "1 RK Studio – Koregaon Park",
+    bhk: "1",
+    budget: 22,
+    location: "Pune",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/271795/pexels-photo-271795.jpeg",
+    area: "400 sqft",
+    type: "Rent"
+  },
+  {
+    title: "2 BHK Family Flat – Noida Sector 62",
+    bhk: "2",
+    budget: 35,
+    location: "Noida",
+    category: "Family",
+    image: "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg",
+    area: "980 sqft",
+    type: "Rent"
+  },
+  {
+    title: "3 BHK Penthouse – Jubilee Hills",
+    bhk: "3",
+    budget: 120,
+    location: "Hyderabad",
+    category: "Penthouse",
+    image: "https://images.pexels.com/photos/221024/pexels-photo-221024.jpeg",
+    area: "1850 sqft",
+    type: "Rent"
+  },
+  {
+    title: "1 BHK Apartment – Colaba",
+    bhk: "1",
+    budget: 42,
+    location: "Mumbai",
+    category: "Apartment",
+    image: "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg",
+    area: "650 sqft",
+    type: "Rent"
+  },
+  {
+    title: "2 BHK Compact – Indirapuram",
+    bhk: "2",
+    budget: 28,
+    location: "Ghaziabad",
+    category: "Compact",
+    image: "https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg",
+    area: "750 sqft",
+    type: "Rent"
+  },
+  {
+    title: "1 BHK Sea View – Calangute Beach",
+    bhk: "1",
+    budget: 30,
+    location: "Goa",
+    category: "Beach",
+    image: "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg",
+    area: "590 sqft",
+    type: "Rent"
+  },
+  {
+    title: "3 BHK Premium – Saket Area",
+    bhk: "3",
+    budget: 75,
+    location: "Delhi",
+    category: "Premium",
+    image: "https://images.pexels.com/photos/1643384/pexels-photo-1643384.jpeg",
+    area: "1350 sqft",
+    type: "Rent"
+  },
+  {
+    title: "2 BHK Affordable – Gachibowli",
+    bhk: "2",
+    budget: 32,
+    location: "Hyderabad",
+    category: "Affordable",
+    image: "https://images.pexels.com/photos/277667/pexels-photo-277667.jpeg",
+    area: "890 sqft",
+    type: "Rent"
+  },
+  {
+    title: "1 RK Studio – HSR Layout",
+    bhk: "1",
+    budget: 18,
+    location: "Bangalore",
+    category: "Studio",
+    image: "https://images.pexels.com/photos/271618/pexels-photo-271618.jpeg",
+    area: "370 sqft",
+    type: "Rent"
+  },
+  {
+    title: "2 BHK Flat – DLF Phase 3",
+    bhk: "2",
+    budget: 40,
+    location: "Gurgaon",
+    category: "Modern",
+    image: "https://images.pexels.com/photos/1571456/pexels-photo-1571456.jpeg",
+    area: "980 sqft",
+    type: "Rent"
+  },
+  {
+    title: "3 BHK Independent House – Salt Lake",
+    bhk: "3",
+    budget: 60,
+    location: "Kolkata",
+    category: "Independent",
+    image: "https://images.pexels.com/photos/27531873/pexels-photo-27531873.jpeg",
+    area: "1420 sqft",
+    type: "Rent"
+  },
+  {
+    title: "1 BHK Budget Flat – Gandhinagar",
+    bhk: "1",
+    budget: 16,
+    location: "Ahmedabad",
+    category: "Budget",
+    image: "https://images.pexels.com/photos/14509975/pexels-photo-14509975.jpeg",
+    area: "490 sqft",
+    type: "Rent"
+  } ,
+  {
+    title: " 3 BHK Budget Flat – Gandhinagar",
+    bhk: "3",
+    budget: 30,
+    location: "kolkata",
+    category: "Budget",
+    image: "https://images.pexels.com/photos/6758788/pexels-photo-6758788.jpeg",
+    area: "550 sqft",
+    type: "Rent"
+  } ,
+  {
+    title: "2 BHK Budget Flat – Gandhinagar",
+    bhk: "2",
+    budget: 20,
+    location: "tamil Nadu",
+    category: "Budget",
+    image: "https://images.pexels.com/photos/7601098/pexels-photo-7601098.jpeg",
+    area: "400 sqft",
+    type: "Rent"
+  } 
+  ];
+
+
+// Filters apply function
+function applyFilters() {
+  showAll = false;
+  loadProperties();
+}
+
+const searchInput = document.getElementById("searchInput");
+const propertyGrid = document.getElementById("propertyGrid");
+
+function renderFilteredProperties(filteredList) {
+  propertyGrid.innerHTML = "";
+  if (filteredList.length === 0) {
+    propertyGrid.innerHTML = "<p>No properties found for this city.</p>";
+    return;
+  }
+  filteredList.forEach((property) => {
+    const card = `
+      <div class="property-card">
+        <img src="${property.image}" alt="${property.title}" />
+        <div class="property-info">
+          <h3>${property.title}</h3>
+          <p>${property.bhk} BHK • ${property.area}</p>
+          <p class="price">₹${property.budget.toLocaleString()}</p>
+        </div>
+      </div>
+    `;
+    propertyGrid.innerHTML += card;
+  });
+}
+
+searchInput.addEventListener("input", applyFilters);
+
+searchInput.addEventListener("keypress", (e) => {
+  if (e.key === "Enter") {
+    applyFilters();
+  }
+});
+
+
+const visibleCount = 8;
+let showAll = false;
+let currentFiltered = [];
+
+function loadProperties() {
+  const container = document.getElementById("propertyGrid");
+  container.innerHTML = "";
+
+  const bhk = document.getElementById("bhkFilter").value;
+  const budget = document.getElementById("budgetFilter").value;
+  const type = document.getElementById("typeFilter").value;
+  const search = document.getElementById("searchInput").value.toLowerCase();
+
+ currentFiltered = properties.filter((p) => {
+  if (bhk && p.bhk !== bhk) return false;
+  if (type && p.category !== type) return false;
+  if (budget) {
+    if (budget === "0-50" && p.budget >= 50) return false;
+    if (budget === "50-100" && (p.budget < 50 || p.budget > 100)) return false;
+    if (budget === "100+" && p.budget <= 100) return false;
+  }
+  if (search && !p.location.toLowerCase().includes(search)) return false;
+  if (activeType !== "All" && p.type !== activeType) return false;
+  return true;
+});
+
+
+  if (currentFiltered.length === 0) {
+    container.innerHTML = "<p>No properties found based on filters.</p>";
+    document.getElementById("viewMoreBtn").style.display = "none";
+    return;
+  }
+
+  const displayItems = showAll ? currentFiltered : currentFiltered.slice(0, visibleCount);
+
+  displayItems.forEach((p, index) => {
+    container.innerHTML += `
+      <div class="property-card" onclick="openModal(${properties.indexOf(p)})">
+        <img src="${p.image}" alt="${p.title}">
+        <div class="property-info">
+          <h4>${p.title}</h4>
+          <p>${p.location}</p>
+          <div class="tags">
+            <span>${p.bhk} BHK</span>
+            <span>${p.area}</span>
+            <span>${p.category}</span>
+            <span>₹${p.budget}${p.type === "Rent" ? "k/mo" : " Lakh"}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  const viewBtn = document.getElementById("viewMoreBtn");
+  if (currentFiltered.length > visibleCount) {
+    viewBtn.style.display = "block";
+    viewBtn.textContent = showAll ? "View Less" : "View More";
+  } else {
+    viewBtn.style.display = "none";
+  }
+}
+
+document.getElementById("viewMoreBtn").addEventListener("click", () => {
+  showAll = !showAll;
+  loadProperties();
+});
+
+function openModal(index) {
+  const p = properties[index];
+  const modal = document.getElementById("propertyModal");
+  const content = document.getElementById("modalContent");
+
+  content.innerHTML = `
+    <img src="${p.image}" alt="${p.title}">
+    <h2>${p.title}</h2>
+    <p><strong>Location:</strong> ${p.location}</p>
+    <p><strong>Price:</strong> ₹${p.budget}${p.type === "Rent" ? "k/month" : " Lakh"}</p>
+    <p><strong>Type:</strong> ${p.category}</p>
+    <p><strong>BHK:</strong> ${p.bhk} BHK</p>
+    <p><strong>Area:</strong> ${p.area}</p>
+    <button onclick="openContactForm()">📞 Contact Owner</button>
+    <button style="background:#aaa; margin-top:10px" onclick="closeModal()">Close</button>
+  `;
+  modal.style.display = "flex";
+}
+
+function closeModal() {
+  document.getElementById("propertyModal").style.display = "none";
+}
+
+function openContactForm() {
+  document.getElementById("contactModal").style.display = "flex";
+}
+
+function closeContactModal() {
+  document.getElementById("contactModal").style.display = "none";
+}
+
+function renderTopProperties() {
+  const topContainer = document.getElementById("topProperties");
+  topContainer.innerHTML = "";
+  const topList = properties.filter(p => p.type === "Buy").slice(0, 6);
+  topList.forEach((p) => {
+    topContainer.innerHTML += `
+      <div class="property-card" onclick="openModal(${properties.indexOf(p)})">
+        <img src="${p.image}" alt="${p.title}">
+        <div class="property-info">
+          <h4>${p.title}</h4>
+          <p>${p.location}</p>
+          <div class="tags">
+            <span>${p.bhk} BHK</span>
+            <span>${p.area}</span>
+            <span>${p.category}</span>
+            <span>₹${p.budget}${p.type === "Rent" ? "k/mo" : " Lakh"}</span>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+}
+
+window.onload = () => {
+  loadProperties();
+  renderTopProperties();
+};
+
+document.querySelectorAll(".city-link").forEach((link) => {
+  link.addEventListener("click", (e) => {
+    e.preventDefault();
+    const selectedCity = e.target.dataset.city.toLowerCase();
+    document.getElementById("searchInput").value = selectedCity;
+    applyFilters();
+  });
+});
+
+document.getElementById("propertyModal").addEventListener("click", function (e) {
+  if (e.target === this) closeModal();
+});
+
+document.getElementById("contactModal").addEventListener("click", function (e) {
+  if (e.target === this) closeContactModal();
+});
+
+function submitContactForm(event) {
+  event.preventDefault();
+  const form = document.querySelector('.contact-form');
+  const successMessage = document.getElementById("successMessage");
+  form.style.display = "none";
+  successMessage.classList.remove("hidden");
+  setTimeout(() => {
+    successMessage.classList.add("hidden");
+    form.reset();
+    form.style.display = "block";
+    closeContactModal();
+  }, 3000);
+}
+
+function goHome() {
+  window.location.href = "index.html";
+}
+
+
+let activeType = "All"; // default state
+
+function filterByType(type) {
+  activeType = type;
+  applyFilters();
+
+
+  
+  // Highlight active tab
+  document.querySelectorAll('#typeTabs button').forEach(btn => {
+    btn.classList.remove('active');
+  });
+  if (type === "All") {
+    document.getElementById("btnAll").classList.add("active");
+
+    // Scroll to top (header)
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+  if (type === "Buy") {
+    document.getElementById("btnBuy").classList.add("active");
+
+    // Scroll to Top Properties section
+    const section = document.getElementById("propertyGrid");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+  if (type === "Rent") {
+    document.getElementById("btnRent").classList.add("active");
+
+    // Scroll to Top Properties section
+    const section = document.getElementById("propertyGrid");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+}
+
+
+const searchInputs= document.getElementById("searchInput");
+
+// ✅ Allow search on Enter key (mobile & desktop)
+searchInput.addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    e.preventDefault(); // Stop default behavior (like form submit)
+    applyFilters();
+
+    // ✅ Scroll to topProperties section after small delay
+    setTimeout(() => {
+      const section = document.getElementById("topProperties") || document.getElementById("propertyGrid");
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    }, 100);
+  }
+});
+
+document.getElementById("searchBtn").addEventListener("click", () => {
+  applyFilters(); // apply search filters
+  const section = document.getElementById("propertyGrid") || document.getElementById("topProperties");
+  if (section) {
+    section.scrollIntoView({ behavior: "smooth", block: "start" });
+  }
+});
+
+
+// ENTER key press on input triggers scroll
+document.getElementById("searchInput").addEventListener("keypress", function (e) {
+  if (e.key === "Enter") {
+    applyFilters(); // Apply the search filters
+    const section = document.getElementById("propertyGrid") || document.getElementById("topProperties");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+});
+
+</script> -->
+<script src="/script.js"></script>
+
+</body>
+</html>
